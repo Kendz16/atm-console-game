@@ -3,7 +3,7 @@ let balance = 5000;
 let lives = 3;
 
 function showMenu() {
-    console.log(`\n=== ATM MENU ===`);
+    console.log(`\n--- ATM MENU ---`);
     console.log(`1. Check Balance`);
     console.log(`2. Exit`);
 }
@@ -12,7 +12,7 @@ function checkBalance() {
     console.log(`\nYour current balance: ₱${balance}`);
 }
 
-console.log(`Welcome to ATM Console Game by Kendrew!`);
+console.log(`Welcome to ATM Console!`); // lets stick to our approve title!
 checkBalance();
 
 let choice = 0;
